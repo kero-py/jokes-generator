@@ -1,0 +1,48 @@
+body {
+    background-color: #acc0c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.container {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.joke
+{
+    font-size: 2em;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn
+{
+    background-color: #dbb532;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
